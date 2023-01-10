@@ -1,0 +1,1 @@
+-wto "b6740b2d924d4ff28600897109cfc7a3" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "ButtonCount_behav" "xil_defaultlib.ButtonCount" "xil_defaultlib.glbl" -log "elaborate.log" 
