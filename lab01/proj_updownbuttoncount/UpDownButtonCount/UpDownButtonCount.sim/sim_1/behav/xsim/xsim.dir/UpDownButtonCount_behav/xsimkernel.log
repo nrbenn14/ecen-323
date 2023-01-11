@@ -1,0 +1,7 @@
+Running: xsim.dir/UpDownButtonCount_behav/xsimk -simmode gui -wdb UpDownButtonCount_behav.wdb -simrunnum 0 -socket 44001
+Design successfully loaded
+Design Loading Memory Usage: 43988 KB (Peak: 44108 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 128732 KB (Peak: 183256 KB)
+Simulation CPU Usage: 100 ms

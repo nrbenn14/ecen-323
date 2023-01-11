@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ecen-323/lab01/OneShot.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OneShot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/auto/fsi/nrbenn14/ecen-323/lab01/UpDownButtonCount.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UpDownButtonCount
+INFO: [VRFC 10-2263] Analyzing Verilog file "/auto/fsi/nrbenn14/ecen-323/lab01/proj_updownbuttoncount/UpDownButtonCount/UpDownButtonCount.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
