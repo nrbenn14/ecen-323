@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date         : Tue Jan 10 17:57:27 2023
+| Date         : Tue Jan 17 14:57:42 2023
 | Host         : DIGITAL-51 running 64-bit Ubuntu 18.04.6 LTS
 | Command      : report_utilization -file UpDownButtonCount_utilization_synth.rpt -pb UpDownButtonCount_utilization_synth.pb
 | Design       : UpDownButtonCount
