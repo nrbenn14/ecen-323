@@ -20,3 +20,5 @@ xelab.pb
 **/passoff_temp_dir/*
 
 # Add you own repository specific ignores below this line
+
+proj_*
