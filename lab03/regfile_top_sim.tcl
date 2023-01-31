@@ -53,7 +53,7 @@ add_force btnc 0
 run 50ns
 
 # Perform an add operation
-add_force 0002 -radix hex
+add_force sw 0002 -radix hex
 add_force btnl 0
 add_force btnc 1
 run 50ns
