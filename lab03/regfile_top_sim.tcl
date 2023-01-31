@@ -58,6 +58,7 @@ add_force btnl 0
 add_force btnc 1
 run 50ns
 
+# Adding a new comment to test
 
 
 # End of line
