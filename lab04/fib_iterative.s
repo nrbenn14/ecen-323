@@ -49,35 +49,35 @@ main:
 	# Save the result into s2
 	mv s2, a0 
 
-    # Print the Result string
-    la a0,result_str            # Put string pointer in a0
-    li a7,PRINT_STR             # System call code for print_str
-    ecall                       # Make system call
+	# Print the Result string
+	la a0,result_str            # Put string pointer in a0
+	li a7,PRINT_STR             # System call code for print_str
+	ecall                       # Make system call
     
-    # Print the number        
+	# Print the number        
  	mv a0, s2
-    li a7,PRINT_INT             # System call code for print_int
-    ecall                       # Make system call
+	li a7,PRINT_INT             # System call code for print_int
+	ecall                       # Make system call
 
-    # Print the netid string
-    la a0,netid_str             # Put string pointer in a0
-    li a7,PRINT_STR             # System call code for print_str
-    ecall                       # Make system call
+	# Print the netid string
+	la a0,netid_str             # Put string pointer in a0
+	li a7,PRINT_STR             # System call code for print_str
+	ecall                       # Make system call
 
-    # Exit (93) with code 0
-    li a0,0
-    li a7,EXIT_CODE
-    ecall
-    ebreak
+	# Exit (93) with code 0
+	li a0,0
+	li a7,EXIT_CODE
+	ecall
+	ebreak
 
 fibonacci:
 
-    # This is where you should create your Fibonacci function.
-    # The input argument for your Fibonacci arrives in a0. You should 
-    # put your result in a0.
-    #
-    # You should properly manage the stack to save registers that
-    # you use.
+	# This is where you should create your Fibonacci function.
+	# The input argument for your Fibonacci arrives in a0. You should 
+	# put your result in a0.
+	#
+	# You should properly manage the stack to save registers that
+	# you use.
 	
 	beqz a0, return			# Checks if a == 0
 	li t1, 1			# Sets temporary register to 1

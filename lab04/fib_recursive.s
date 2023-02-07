@@ -29,7 +29,7 @@ result_str:                                    # The location for the result str
 
 netid_str:                                     # The location for the netid string data
                                                # Change the string below to include your net id
-    .string "\nNet ID=nrbenn14"            # Allocates 1 byte per character plus null character
+    .string "\nNet ID=nrbenn14"                # Allocates 1 byte per character plus null character
 
 .text
 
