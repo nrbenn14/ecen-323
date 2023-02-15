@@ -11,6 +11,8 @@
 * Description: Takes inputs from PCSrc, ALUSrc, registers and memory to
 *               perform operations used on the RISC-V Processor.
 *
+* Modules: riscv_simple_datapath, regfile0, alu0
+*
 ****************************************************************************/
 
 
