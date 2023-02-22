@@ -1,5 +1,4 @@
 `timescale 1 ns / 1 ps 
-`include "riscv_alu_constants.sv"
 /***************************************************************************
 * 
 * File: alu.sv
@@ -18,6 +17,9 @@
 
 module alu(op1, op2, alu_op, zero, result);
 
+    `include "riscv_alu_constants.sv"
+
+    
     input wire logic [31:0] op1, op2;
     input wire logic [3:0] alu_op;
     output logic zero;
