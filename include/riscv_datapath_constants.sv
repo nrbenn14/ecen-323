@@ -1,6 +1,3 @@
-`ifndef RISCV_DATAPATH_CONSTANTS
-`define RISCV_DATAPATH_CONSTANTS
-
 localparam[6:0] R_TYPE_OP_CODE = 7'b0110011; 
 localparam[6:0] I_TYPE_OP_CODE = 7'b0010011;
 localparam[6:0] ILOAD_TYPE_OP_CODE = 7'b0000011;  
@@ -18,7 +15,5 @@ localparam[2:0] FUNCT3_SRL = 3'b101;
 localparam[2:0] FUNCT3_SRA = 3'b101;
 localparam[6:0] FUNCT7_SUB = 7'b0100000;
 localparam[6:0] FUNCT7_ADD = 7'b0000000;
-localparam[6:0] FUNCT7_SRL = 7'b0100000;
-localparam[6:0] FUNCT7_SRA = 7'b0000000;
-
-`endif // RISCV_DATAPATH_CONSTANTS
+localparam[6:0] FUNCT7_SRL = 7'b0000000;
+localparam[6:0] FUNCT7_SRA = 7'b0100000;
