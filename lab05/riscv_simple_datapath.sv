@@ -1,5 +1,4 @@
 `timescale 1ns / 1ps
-`include "riscv_datapath_constants.sv"
 /***************************************************************************
 * 
 * Filename: riscv_simple_datapath.sv
@@ -19,6 +18,7 @@
 module riscv_simple_datapath #(parameter INITIAL_PC = 32'h00400000)(clk, rst, PCSrc, ALUSrc, 
     RegWrite, MemtoReg, loadPC, instruction, dReadData, ALUCtrl, Zero, PC, dAddress, dWriteData, WriteBackData);
 
+    `include "riscv_datapath_constants.sv"
 
     input wire logic clk, rst, PCSrc, ALUSrc, RegWrite, MemtoReg, loadPC;
     input wire logic [31:0] instruction, dReadData;
