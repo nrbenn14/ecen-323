@@ -1,6 +1,4 @@
 `timescale 1ns / 1ps
-`include "riscv_alu_constants.sv"
-`include "riscv_datapath_constants.sv"
 /***************************************************************************
 * 
 * File: riscv_basic_pipeline.sv
@@ -21,6 +19,10 @@
 module riscv_basic_pipeline #(parameter INITIAL_PC = 32'h00400000)(clk, rst, PC, instruction, ALUResult,
 dAddress, dWriteData, dReadData,  MemRead, MemWrite, WriteBackData);
 
+
+    `include "riscv_alu_constants.sv"
+    `include "riscv_datapath_constants.sv"
+    
     input wire logic clk, rst;
     input wire logic [31:0] instruction, dReadData;
     output logic MemRead, MemWrite;
