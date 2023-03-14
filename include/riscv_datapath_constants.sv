@@ -17,3 +17,10 @@ localparam[6:0] FUNCT7_SUB = 7'b0100000;
 localparam[6:0] FUNCT7_ADD = 7'b0000000;
 localparam[6:0] FUNCT7_SRL = 7'b0000000;
 localparam[6:0] FUNCT7_SRA = 7'b0100000;
+
+localparam[31:0] NOP_CONST = 32'h00000013;
+localparam[31:0] EMPTY_32 = 32'h00000000;
+
+localparam[1:0] FORWARD_0 = 2'b00;
+localparam[1:0] FORWARD_1 = 2'b01;
+localparam[1:0] FORWARD_2 = 2'b10;
