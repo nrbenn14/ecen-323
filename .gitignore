@@ -22,6 +22,7 @@ xelab.pb
 # Add you own repository specific ignores below this line
 
 proj_*
+*_proj
 proj*
 
 *.mem
