@@ -3,6 +3,9 @@ localparam[6:0] I_TYPE_OP_CODE = 7'b0010011;
 localparam[6:0] ILOAD_TYPE_OP_CODE = 7'b0000011;  
 localparam[6:0] S_TYPE_OP_CODE = 7'b0100011; 
 localparam[6:0] SB_TYPE_OP_CODE = 7'b1100011; 
+localparam[6:0] U_TYPE_OP_CODE = 7'b0110111;
+localparam[6:0] UJ_TYPE_OP_CODE = 7'b1101111;
+localparam[6:0] I_JALR_TYPE_OP_CODE = 7'b1100111;
 
 localparam[2:0] FUNCT3_OR = 3'b110;
 localparam[2:0] FUNCT3_SLT = 3'b010;
@@ -48,7 +51,7 @@ localparam[2:0] OR_F3 = 3'b110;
 localparam[2:0] AND_F3 = 3'b111;
 localparam[6:0] SUB_F7 = 7'b0100000;
 
-localparam[2:0] BEQ = 3'b000;
-localparam[2:0] BNE = 3'b001;
-localparam[2:0] BLT = 3'b100;
-localparam[2:0] BGE = 3'b101;
+localparam[2:0] FUNC3_BEQ = 3'b000;
+localparam[2:0] FUNC3_BNE = 3'b001;
+localparam[2:0] FUNC3_BLT = 3'b100;
+localparam[2:0] FUNC3_BGE = 3'b101;
