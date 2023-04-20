@@ -1,0 +1,51 @@
+#################################################
+#
+# background_mem.txt
+#
+#
+#
+# Lines starting with a '#' are ignored and used for comments
+#
+#################################################
+
+.background_start
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X                                                                           X
+X                                                                           X
+X       NN           N                 BBBBBBBBBBBBBB                       X
+X       NN           N                 B             B                      X
+X       N N          N                 B              B                     X
+X       N N          N                 B               B                    X
+X       N  N         N                 B                B                   X
+X       N  N         N                 B                B                   X
+X       N   N        N                 B                B                   X
+X       N   N        N                 B               B                    X
+X       N    N       N                 B              B                     X
+X       N    N       N                 B             B                      X
+X       N     N      N                 B            B                       X
+X       N     N      N                 BBBBBBBBBBBBB                        X
+X       N      N     N                 B            B                       X
+X       N      N     N                 B             B                      X
+X       N       N    N                 B              B                     X
+X       N       N    N                 B               B                    X
+X       N        N   N                 B                B                   X
+X       N        N   N                 B                B                   X
+X       N         N  N                 B                B                   X
+X       N         N  N                 B               B                    X
+X       N          N N                 B              B                     X
+X       N          N N                 B             B                      X
+X       N           NN                 B            B                       X
+X       N           NN                 B           B                        X
+X       N            N                 BBBBBBBBBBBB                         X
+X                                                                           X
+X                                                                           X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+.background_end
+
+.default_color 0x000fff
+
+.char_color_map
+'N'=0x1C13CF
+' '=0xFFFFFF
+'B'=0xDE0B0B
+'X'=0x000000

@@ -1,0 +1,19 @@
+ECEN 323 Lab #12 Project Instructions
+
+Name: Nathan Bennion (nrbenn14)
+
+Title: Go, Dog, Go! (RISC-V style)
+
+Instructions:
+
+You are a dog who is trying to find their human! Get there as fast as you can! 
+If you want to try and find them faster, press the center button.
+
+Custom characters: Dog face (denoted by the ears), human face (happy to see dog running at them).
+Custom background: Wheat grass field (it's just yellow... sorry).
+Procedures: move character, restart, process buttons, set color, update timer
+Buttons: Moves the character based on the directional button pressed. Center button restarts game.
+LEDs and 7 Segment Display: Seven Segment Display shows your time (in hex) to find the human. LEDs reflect switches (again, sorry).
+
+Partner:
+No partner.
