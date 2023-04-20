@@ -6,7 +6,9 @@ Title: This is really bad...
 
 Instructions:
 
-I was not able to complete anything. So sorry.
+I was not able to complete anything. So sorry. 
+The project.s in my directory and submission is just the final_iosystem.s copied over since I was going to use that
+as a starting point. 
 
 Custom characters: Dog face (denoted by the ears), another smiley face human face, cool characters I just played with.
 Custom background: Wheat grass field (it's just yellow... sorry).
